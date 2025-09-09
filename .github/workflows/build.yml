@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - master
+      - workflow
   schedule:
     - cron: "30 17 * * 5" # Every Friday at 17:30 UTC
 
